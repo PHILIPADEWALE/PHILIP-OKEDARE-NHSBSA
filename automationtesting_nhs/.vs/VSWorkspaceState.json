@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\test",
+    "\\src\\test\\java",
+    "\\src\\test\\java\\automationTesting",
+    "\\src\\test\\java\\automationTesting\\common",
+    "\\src\\test\\java\\automationTesting\\pages"
+  ],
+  "SelectedNode": "\\src\\test\\java\\automationTesting\\pages\\NHSHomePage.java",
+  "PreviewInSolutionExplorer": false
+}

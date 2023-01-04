@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Automation Testing]" data-provider-thread-count="5">
+  <test name="AutomationChrome(failed)">
+    <parameter name="environment" value="chrome"/>
+    <classes>
+      <class name="automationTesting.runner.AutomationTestRunner">
+        <methods>
+          <include name="runFeature" invocation-numbers="1 43 42 44 45 46 47 48 49 50 51 52 53 54 55 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="tearDownClass"/>
+          <include name="beforeSuite"/>
+          <include name="setEnvironment"/>
+          <include name="afterSuite"/>
+          <include name="setUpClass"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationTesting.runner.AutomationTestRunner -->
+    </classes>
+  </test> <!-- AutomationChrome(failed) -->
+  <test name="AutomationFirefox(failed)">
+    <parameter name="environment" value="firefox"/>
+    <classes>
+      <class name="automationTesting.runner.AutomationTestRunner">
+        <methods>
+          <include name="runFeature"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="tearDownClass"/>
+          <include name="beforeSuite"/>
+          <include name="setEnvironment"/>
+          <include name="afterSuite"/>
+          <include name="setUpClass"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationTesting.runner.AutomationTestRunner -->
+    </classes>
+  </test> <!-- AutomationFirefox(failed) -->
+</suite> <!-- Failed suite [Automation Testing] -->

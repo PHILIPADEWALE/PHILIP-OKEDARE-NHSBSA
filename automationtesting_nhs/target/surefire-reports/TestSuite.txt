@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 231, Failures: 1, Errors: 0, Skipped: 183, Time elapsed: 1,128.943 sec <<< FAILURE! - in TestSuite
+setEnvironment(automationTesting.runner.AutomationTestRunner)  Time elapsed: 15.024 sec  <<< FAILURE!
+io.github.bonigarcia.wdm.config.WebDriverManagerException: javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!
+Caused by: javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!
+Caused by: javax.crypto.AEADBadTagException: Tag mismatch!
+

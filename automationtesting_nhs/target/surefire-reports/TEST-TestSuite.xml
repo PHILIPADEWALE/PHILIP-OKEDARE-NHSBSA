@@ -1,0 +1,2364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,128.943" tests="231" errors="0" skipped="183" failures="1">
+  <properties>
+    <property name="idea.version" value="2022.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin"/>
+    <property name="java.vm.version" value="25.351-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\User\Downloads\automationtesting_nhs\automationtesting_nhs"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\User\Downloads\automationtesting_nhs\automationtesting_nhs"/>
+    <property name="java.runtime.version" value="1.8.0_351-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_351\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\PyCharm 2021.3.1\bin;;C:\Users\User\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.4\bin;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="User"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_351\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.1 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_351"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_351\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+Envchrome
+Envchrome
+Envchrome
+Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 29460
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:22:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 20638
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:22:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 20630
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:22:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 23683
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:22:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 23536
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:22:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.NullPointerException
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:303)
+	at com.aventstack.extentreports.ExtentTest.pass(ExtentTest.java:524)
+	at utils.Reporter.reportStep(Reporter.java:125)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.click(SeleniumWrapper.java:270)
+	at automationTesting.pages.NHSQuestionPage.userClicksOnNextButton(NHSQuestionPage.java:26)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="3.743"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0.967"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="3.024"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="5.294"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="14.477"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="5.064"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="1.319"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="10.157"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="12.146"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="2.479"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="5.942"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="6.097"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="1.825"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="1.866"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="2.086"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="8.658"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="9.129"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="16.664"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="16.946"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="17.198"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="17.67"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="18.237"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="11.357"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0.228"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="23.533"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="6.649"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="6.664"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="6.917"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="6.965"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="8.705"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="4.951"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="5.42"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0.332"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="9.442"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="6.866"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="7.571"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="7.663"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="7.727"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="5.071"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="5.445"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="6.451"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 13529
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:27:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 23320
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Jan 04, 2023 10:28:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 11502
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:28:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:215)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 31506
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:28:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 32011
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:28:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 36489
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:28:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:215)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 44034
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:28:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 11498
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:29:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 6566
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:29:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:215)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 44705
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:29:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="10.29"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 40803
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:29:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 41138
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:29:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:215)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="5.285"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 24049
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:29:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 12803
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Jan 04, 2023 10:29:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 8958
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:29:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 30558
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:30:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfEmploymentAndSupportAllowanceESADoYouOrYourPartnerGet(NHSQuestionPage.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 45085
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:30:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfEmploymentAndSupportAllowanceESADoYouOrYourPartnerGet(NHSQuestionPage.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 4524
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:30:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfEmploymentAndSupportAllowanceESADoYouOrYourPartnerGet(NHSQuestionPage.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfEmploymentAndSupportAllowanceESADoYouOrYourPartnerGet(NHSQuestionPage.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 32805
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Jan 04, 2023 10:30:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 3579
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:30:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfJobseekerAllowanceJSADoYouOrYourPartnerGet(NHSQuestionPage.java:268)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 33419
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:30:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfJobseekerAllowanceJSADoYouOrYourPartnerGet(NHSQuestionPage.java:268)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 19149
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:31:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfJobseekerAllowanceJSADoYouOrYourPartnerGet(NHSQuestionPage.java:270)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 25690
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:31:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfJobseekerAllowanceJSADoYouOrYourPartnerGet(NHSQuestionPage.java:270)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 22615
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Jan 04, 2023 10:31:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 35121
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:31:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:287)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 12982
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:31:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 2092
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:31:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:287)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 16592
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:32:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 43504
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Jan 04, 2023 10:32:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[Envchrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 21271
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 04, 2023 10:32:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.locateElement(SeleniumWrapper.java:174)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:348)
+	at automationTesting.pages.NHSQuestionPage.userSelectsNoForAreYouPregnantOrHaveYouGivenBirthInTheLastMonths(NHSQuestionPage.java:74)
+	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:56)
+	at automationTesting.runner.AutomationTestRunner.runFeature(AutomationTestRunner.java:31)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="8.069"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="8.093"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="10.793"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="13.292"/>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+    <system-err><![CDATA[1672828363001	geckodriver	INFO	Listening on 127.0.0.1:4712
+1672828363277	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilehvuAKG"
+1672828364369	Marionette	INFO	Marionette enabled
+1672828364376	Marionette	INFO	Listening on port 51984
+Read port: 51984
+1672828364513	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilehvuAKG\\search.json.mozlz4", (void 0)))
+Jan 04, 2023 10:36:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+    <system-err><![CDATA[1672828562897	geckodriver	INFO	Listening on 127.0.0.1:17641
+1672828563372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilevhyRXD"
+1672828563777	Marionette	INFO	Marionette enabled
+1672828563783	Marionette	INFO	Listening on port 52017
+Read port: 52017
+1672828563900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilevhyRXD\\search.json.mozlz4", (void 0)))
+Jan 04, 2023 10:40:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+    <system-err><![CDATA[1672828849859	geckodriver	INFO	Listening on 127.0.0.1:5258
+1672828850336	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileJET9vX"
+1672828850811	Marionette	INFO	Marionette enabled
+1672828850817	Marionette	INFO	Listening on port 52085
+Read port: 52085
+1672828851180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileJET9vX\\search.json.mozlz4", (void 0)))
+Jan 04, 2023 10:40:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+]]></system-err>
+  </testcase>
+  <testcase name="runFeature" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!"/>
+    <system-err><![CDATA[1672828854129	geckodriver	INFO	Listening on 127.0.0.1:33567
+1672828854588	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilegZR9zd"
+1672828854987	Marionette	INFO	Marionette enabled
+1672828854994	Marionette	INFO	Listening on port 52117
+Read port: 52117
+1672828855121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilegZR9zd\\search.json.mozlz4", (void 0)))
+Jan 04, 2023 10:40:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+]]></system-err>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="15.024">
+    <failure message="javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!" type="io.github.bonigarcia.wdm.config.WebDriverManagerException">io.github.bonigarcia.wdm.config.WebDriverManagerException: javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!
+Caused by: javax.net.ssl.SSLException: javax.crypto.AEADBadTagException: Tag mismatch!
+Caused by: javax.crypto.AEADBadTagException: Tag mismatch!
+</failure>
+    <system-out><![CDATA[
+Failed scenarios:
+src/test/resources/features/Automation/NHSCost.feature:70 # User verifies the NHS Cost with blood sugar levels as Yes
+src/test/resources/features/Automation/NHSCost.feature:716 # User verifies the NHS Cost with live without partner as yes, tax credit income as no
+src/test/resources/features/Automation/NHSCost.feature:715 # User verifies the NHS Cost with live without partner as yes, tax credit income as no
+src/test/resources/features/Automation/NHSCost.feature:717 # User verifies the NHS Cost with live without partner as yes, tax credit income as no
+src/test/resources/features/Automation/NHSCost.feature:718 # User verifies the NHS Cost with live without partner as yes, tax credit income as no
+src/test/resources/features/Automation/NHSCost.feature:719 # User verifies the NHS Cost with live without partner as yes, tax credit income as no
+src/test/resources/features/Automation/NHSCost.feature:720 # User verifies the NHS Cost with live without partner as yes, tax credit income as no
+src/test/resources/features/Automation/NHSCost.feature:751 # User verifies the NHS Cost with live without partner as yes, tax credit income as yes
+src/test/resources/features/Automation/NHSCost.feature:752 # User verifies the NHS Cost with live without partner as yes, tax credit income as yes
+src/test/resources/features/Automation/NHSCost.feature:753 # User verifies the NHS Cost with live without partner as yes, tax credit income as yes
+src/test/resources/features/Automation/NHSCost.feature:754 # User verifies the NHS Cost with live without partner as yes, tax credit income as yes
+src/test/resources/features/Automation/NHSCost.feature:755 # User verifies the NHS Cost with live without partner as yes, tax credit income as yes
+src/test/resources/features/Automation/NHSCost.feature:756 # User verifies the NHS Cost with live without partner as yes, tax credit income as yes
+src/test/resources/features/Automation/NHSCost.feature:799 # User verifies the NHS Cost with live without partner as yes, TaxCreditType as Working Tax Credit on its own
+src/test/resources/features/Automation/NHSCost.feature:800 # User verifies the NHS Cost with live without partner as yes, TaxCreditType as Working Tax Credit on its own
+src/test/resources/features/Automation/NHSCost.feature:857 # User verifies the NHS Cost with live without partner as yes,ESA as Income Related ESA
+src/test/resources/features/Automation/NHSCost.feature:858 # User verifies the NHS Cost with live without partner as yes,ESA as Income Related ESA
+src/test/resources/features/Automation/NHSCost.feature:901 # User verifies the NHS Cost with live without partner as yes,ESA as Contribution Based ESA
+src/test/resources/features/Automation/NHSCost.feature:902 # User verifies the NHS Cost with live without partner as yes,ESA as Contribution Based ESA
+src/test/resources/features/Automation/NHSCost.feature:931 # User verifies the NHS Cost with live without partner as yes, JSA as Income Related JSA
+src/test/resources/features/Automation/NHSCost.feature:932 # User verifies the NHS Cost with live without partner as yes, JSA as Income Related JSA
+src/test/resources/features/Automation/NHSCost.feature:975 # User verifies the NHS Cost with live without partner as yes, JSA as Contribution Based JSA
+src/test/resources/features/Automation/NHSCost.feature:976 # User verifies the NHS Cost with live without partner as yes, JSA as Contribution Based JSA
+src/test/resources/features/Automation/NHSCost.feature:1005 # User verifies the NHS Cost with live without partner as yes, PensionCredit as Credit Only
+src/test/resources/features/Automation/NHSCost.feature:1006 # User verifies the NHS Cost with live without partner as yes, PensionCredit as Credit Only
+src/test/resources/features/Automation/NHSCost.feature:1007 # User verifies the NHS Cost with live without partner as yes, PensionCredit as Credit Only
+src/test/resources/features/Automation/NHSCost.feature:1008 # User verifies the NHS Cost with live without partner as yes, PensionCredit as Credit Only
+src/test/resources/features/Automation/NHSCost.feature:1051 # User verifies the NHS Cost with live without partner as yes, PensionCredit as Savings Only
+src/test/resources/features/Automation/NHSCost.feature:1052 # User verifies the NHS Cost with live without partner as yes, PensionCredit as Savings Only
+src/test/resources/features/Automation/NHSCost.feature:1095 # User verifies the NHS Cost with live without partner as yes, benefits as no
+src/test/resources/features/Automation/NHSCost.feature:1096 # User verifies the NHS Cost with live without partner as yes, benefits as no
+
+78 Scenarios (31 failed, 47 passed)
+2199 Steps (31 failed, 313 skipped, 1855 passed)
+10m29.403s
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.click(SeleniumWrapper.java:273)
+	at automationTesting.pages.NHSQuestionPage.userClicksOnNextButton(NHSQuestionPage.java:26)
+	at ?.User clicks on Next button(src/test/resources/features/Automation/NHSCost.feature:58)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:213)
+	at ?.User selects Working Tax Credit and Child Tax Credit together for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:693)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:217)
+	at ?.User selects Working Tax Credit on its own, including a disability element for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:693)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:215)
+	at ?.User selects Child Tax Credit on its own for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:693)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:217)
+	at ?.User selects Working Tax Credit on its own, including a disability element for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:693)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:213)
+	at ?.User selects Working Tax Credit and Child Tax Credit together for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:693)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:215)
+	at ?.User selects Child Tax Credit on its own for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:693)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:217)
+	at ?.User selects Working Tax Credit on its own, including a disability element for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:743)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:213)
+	at ?.User selects Working Tax Credit and Child Tax Credit together for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:743)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:215)
+	at ?.User selects Child Tax Credit on its own for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:743)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:217)
+	at ?.User selects Working Tax Credit on its own, including a disability element for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:743)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:213)
+	at ?.User selects Working Tax Credit and Child Tax Credit together for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:743)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:215)
+	at ?.User selects Child Tax Credit on its own for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:743)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:211)
+	at ?.User selects Working Tax Credit on its own for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:779)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfTaxCreditDoYouOrYourPartnerGets(NHSQuestionPage.java:211)
+	at ?.User selects Working Tax Credit on its own for which type of tax credit do you or your partner gets(src/test/resources/features/Automation/NHSCost.feature:779)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfEmploymentAndSupportAllowanceESADoYouOrYourPartnerGet(NHSQuestionPage.java:252)
+	at ?.User selects Income Related ESA for which type of Employment and Support Allowance ESA do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:851)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfEmploymentAndSupportAllowanceESADoYouOrYourPartnerGet(NHSQuestionPage.java:252)
+	at ?.User selects Income Related ESA for which type of Employment and Support Allowance ESA do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:851)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfEmploymentAndSupportAllowanceESADoYouOrYourPartnerGet(NHSQuestionPage.java:254)
+	at ?.User selects Contribution based ESA for which type of Employment and Support Allowance ESA do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:881)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfEmploymentAndSupportAllowanceESADoYouOrYourPartnerGet(NHSQuestionPage.java:254)
+	at ?.User selects Contribution based ESA for which type of Employment and Support Allowance ESA do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:881)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfJobseekerAllowanceJSADoYouOrYourPartnerGet(NHSQuestionPage.java:268)
+	at ?.User selects Income Related JSA for which type of Jobseeker Allowance JSA do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:925)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfJobseekerAllowanceJSADoYouOrYourPartnerGet(NHSQuestionPage.java:268)
+	at ?.User selects Income Related JSA for which type of Jobseeker Allowance JSA do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:925)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfJobseekerAllowanceJSADoYouOrYourPartnerGet(NHSQuestionPage.java:270)
+	at ?.User selects Contribution based JSA for which type of Jobseeker Allowance JSA do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:955)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhichTypeOfJobseekerAllowanceJSADoYouOrYourPartnerGet(NHSQuestionPage.java:270)
+	at ?.User selects Contribution based JSA for which type of Jobseeker Allowance JSA do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:955)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:285)
+	at ?.User selects Guarantee Credit only for what type of Pension Credit do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:999)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:287)
+	at ?.User selects Guarantee Credit with Savings Credit for what type of Pension Credit do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:999)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:285)
+	at ?.User selects Guarantee Credit only for what type of Pension Credit do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:999)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:287)
+	at ?.User selects Guarantee Credit with Savings Credit for what type of Pension Credit do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:999)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:289)
+	at ?.User selects Savings Credit for what type of Pension Credit do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:1031)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsForWhatTypeOfPensionCreditDoYouOrYourPartnerGet(NHSQuestionPage.java:289)
+	at ?.User selects Savings Credit for what type of Pension Credit do you or your partner get(src/test/resources/features/Automation/NHSCost.feature:1031)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsNoForAreYouPregnantOrHaveYouGivenBirthInTheLastMonths(NHSQuestionPage.java:74)
+	at ?.User selects NO for are you pregnant or have you given birth in the last 12 months(src/test/resources/features/Automation/NHSCost.feature:1077)
+
+java.lang.RuntimeException
+	at utils.Reporter.reportStep(Reporter.java:128)
+	at utils.Reporter.reportStep(Reporter.java:138)
+	at wrappers.SeleniumWrapper.clickJavaScriptExecutor(SeleniumWrapper.java:352)
+	at automationTesting.pages.NHSQuestionPage.userSelectsNoForAreYouPregnantOrHaveYouGivenBirthInTheLastMonths(NHSQuestionPage.java:74)
+	at ?.User selects NO for are you pregnant or have you given birth in the last 12 months(src/test/resources/features/Automation/NHSCost.feature:1077)
+
+Envfirefox
+Envfirefox
+Envfirefox
+Envfirefox
+Envfirefox
+]]></system-out>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setEnvironment" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterSuite" classname="automationTesting.runner.AutomationTestRunner" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+0 Scenarios
+0 Steps
+8m17.603s
+
+]]></system-out>
+  </testcase>
+</testsuite>

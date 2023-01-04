@@ -1,0 +1,4 @@
+automationTesting\pages\NHSQuestionPage.class
+automationTesting\pages\NHSHomePage.class
+automationTesting\common\AutomationWrapper.class
+automationTesting\runner\AutomationTestRunner.class

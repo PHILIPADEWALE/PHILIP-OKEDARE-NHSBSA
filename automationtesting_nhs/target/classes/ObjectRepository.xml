@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+    <page name="home_page">
+        <uiElements>
+            <uiobject name="startNowButton" locatorType="xpath">
+                <locator>//input[@class='button button-get-started']</locator>
+            </uiobject>
+            <uiobject name="cookiesButton" locatorType="id">
+                <locator>nhsuk-cookie-banner__link_accept_analytics</locator>
+            </uiobject>
+        </uiElements>
+    </page>
+    <page name="question_page">
+        <uiElements>
+            <uiobject name="nextButton" locatorType="id">
+                <locator>next-button</locator>
+            </uiobject>
+            <uiobject name="selectCountryAsEngland" locatorType="id">
+                <locator>radio-england</locator>
+            </uiobject>
+            <uiobject name="RadioButtonNo" locatorType="id">
+                <locator>radio-no</locator>
+            </uiobject>
+            <uiobject name="RadioButtonYes" locatorType="id">
+                <locator>radio-yes</locator>
+            </uiobject>
+            <uiobject name="BirthDate" locatorType="id">
+                <locator>dob-day</locator>
+            </uiobject>
+            <uiobject name="BirthMonth" locatorType="id">
+                <locator>dob-month</locator>
+            </uiobject>
+            <uiobject name="BirthYear" locatorType="id">
+                <locator>dob-year</locator>
+            </uiobject>
+            <uiobject name="EndResult" locatorType="xpath">
+                <locator>//div[@class='column-two-thirds']</locator>
+            </uiobject>
+            <uiobject name="YesUniversal" locatorType="xpath">
+                <locator>//input[@id='yes-universal']</locator>
+            </uiobject>
+            <uiobject name="NotYetUniversal" locatorType="xpath">
+                <locator>//input[@id='not-yet']</locator>
+            </uiobject>
+            <uiobject name="NoUniversal" locatorType="xpath">
+                <locator>//input[@id='different-benefit']</locator>
+            </uiobject>
+            <uiobject name="incSupport" locatorType="xpath">
+                <locator>//input[@id='incSupport']</locator>
+            </uiobject>
+            <uiobject name="esa" locatorType="xpath">
+                <locator>//input[@id='esa']</locator>
+            </uiobject>
+            <uiobject name="jsa" locatorType="xpath">
+                <locator>//input[@id='jsa']</locator>
+            </uiobject>
+            <uiobject name="penCredit" locatorType="xpath">
+                <locator>//input[@id='penCredit']</locator>
+            </uiobject>
+            <uiobject name="continue" locatorType="xpath">
+                <locator>//input[@id='continue']</locator>
+            </uiobject>
+            <uiobject name="taxCredit" locatorType="xpath">
+                <locator>//input[@id='taxCredit']</locator>
+            </uiobject>
+            <uiobject name="workingChildTaxCredit" locatorType="xpath">
+                <locator>//input[@id='workingChildTaxCredit']</locator>
+            </uiobject>
+            <uiobject name="workingTaxCreditWithDisability" locatorType="xpath">
+                <locator>//input[@id='workingDisabilityTaxCredit']</locator>
+            </uiobject>
+            <uiobject name="childTaxCredit" locatorType="xpath">
+                <locator>//input[@id='childTaxCredit']</locator>
+            </uiobject>
+            <uiobject name="workingTaxCredit" locatorType="xpath">
+                <locator>//input[@id='workingTaxCredit']</locator>
+            </uiobject>
+            <uiobject name="incomeesa" locatorType="xpath">
+                <locator>//input[@id='income-esa']</locator>
+            </uiobject>
+            <uiobject name="contributionesa" locatorType="xpath">
+                <locator>//input[@id='contribution-esa']</locator>
+            </uiobject>
+            <uiobject name="incomejsa" locatorType="xpath">
+                <locator>//input[@id='income-jsa']</locator>
+            </uiobject>
+            <uiobject name="contributionjsa" locatorType="xpath">
+                <locator>//input[@id='contbasejsa']</locator>
+            </uiobject>
+            <uiobject name="guaranteecreditonly" locatorType="xpath">
+                <locator>//input[@id='guaranteecreditonly']</locator>
+            </uiobject>
+            <uiobject name="guaranteecreditwithsavingcredit" locatorType="xpath">
+                <locator>//input[@id='guaranteecreditwithsavingcredit']</locator>
+            </uiobject>
+            <uiobject name="savingcredit" locatorType="xpath">
+                <locator>//input[@id='savingcredit']</locator>
+            </uiobject>
+        </uiElements>
+    </page>
+    <page name="sign_up">
+        <uiElements>
+            <uiobject name="firstName" locatorType="id">
+                <locator>customer.firstName</locator>
+            </uiobject>
+            <uiobject name="lastName" locatorType="id">
+                <locator>customer.lastName</locator>
+            </uiobject>
+            <uiobject name="address" locatorType="id">
+                <locator>customer.address.street</locator>
+            </uiobject>
+            <uiobject name="city" locatorType="id">
+                <locator>customer.address.city</locator>
+            </uiobject>
+            <uiobject name="state" locatorType="id">
+                <locator>customer.address.state</locator>
+            </uiobject>
+            <uiobject name="zipcode" locatorType="id">
+                <locator>customer.address.zipCode</locator>
+            </uiobject>
+            <uiobject name="phone" locatorType="id">
+                <locator>customer.phoneNumber</locator>
+            </uiobject>
+            <uiobject name="ssn" locatorType="id">
+                <locator>customer.ssn</locator>
+            </uiobject>
+            <uiobject name="username" locatorType="id">
+                <locator>customer.username</locator>
+            </uiobject>
+            <uiobject name="password" locatorType="id">
+                <locator>customer.password</locator>
+            </uiobject>
+            <uiobject name="confirmPassword" locatorType="id">
+                <locator>repeatedPassword</locator>
+            </uiobject>
+            <uiobject name="register" locatorType="xpath">
+                <locator>//input[@value='Register']</locator>
+            </uiobject>
+        </uiElements>
+    </page>
+    <page name="account_overview">
+        <uiElements>
+            <uiobject name="balanceAmount" locatorType="xpath">
+                <locator>//table[@id='accountTable']/tbody/tr[1]/td[2]</locator>
+            </uiobject>
+        </uiElements>
+    </page>
+    <page name="open_new_account">
+        <uiElements>
+            <uiobject name="selectSavingAccount" locatorType="xpath">
+                <locator>//select[@id='type']</locator>
+            </uiobject>
+            <uiobject name="accountOpenButton" locatorType="xpath">
+                <locator>//input[@value='Open New Account']</locator>
+            </uiobject>
+            <uiobject name="newAccountId" locatorType="id">
+                <locator>newAccountId</locator>
+            </uiobject>
+        </uiElements>
+    </page>
+</pages>
